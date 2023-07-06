@@ -17,7 +17,7 @@ export default function PaginaProdutos() {
     }
     return (
         <div className={`
-            flex flex-col justify-center items-center h-screen bg-black text-white
+            flex flex-col gap-10 justify-center items-center h-screen bg-black text-white
         `}>
             <Carrinho itens={itens} />
             <ListasProdutos produtos={produtos} comprar={adicionarProduto} />
