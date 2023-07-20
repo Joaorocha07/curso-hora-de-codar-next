@@ -1,13 +1,12 @@
 import Image from "next/image";
 
 export default function Background() {
-    const url = "https://www.pixelstalk.net/wp-content/uploads/2016/06/Star-Wars-Backgrounds.jpg"
     return (
         <Image 
-            src={url}
+            src="https://wallpaperaccess.com/full/11801.jpg"
             fill
             alt="background"
-            className=""
+            className="object-cover"
         />
     )
 }
